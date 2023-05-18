@@ -1,0 +1,65 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+    margin-top: 0;
+}
+body {
+    height: 100%;
+    margin:50px;
+    /* Margin bottom by footer height */
+}
+
+.social-media-links > a {
+    width: 10px;
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+p {
+    margin-top: 15px;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+}
+
+h2, h4 {
+    font-family: sans-serif, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+li {
+    font-family: sans-serif, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+    margin-bottom: 10px;
+}
+
+#dp {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#wrkExp {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:  250px;
+    height: 150px;
+}
+
+body > .container {
+    padding: 60px 15px 0;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+}
+
+code {
+    font-size: 100%;
+}
+
+.navbar {
+    position: fixed; /* Set the navbar to fixed position */
+    width: 100%; /* Full width */
+  }
